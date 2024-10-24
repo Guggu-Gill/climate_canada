@@ -12,6 +12,16 @@ This API from the Government of Canada provides programmatic access to informati
 - A total ETL job with 8,000 readings from the 70 odd weather station was set up, and a QuickSight dashboard was used. Data filtering was performed using Spark Glue.
 
 
+# Video
+
+https://github.com/user-attachments/assets/d0328029-6af7-41e6-a51e-c0fa59e1c613
+
+
+# Observations-
+1. Climate change is a reality, as there has been an increase in maximum, minimum, and average temperatures after 2000 at majority of stations.
+2. There is a decrease in snowfall, rainfall after year 2000 at the majority of stations
+
+
 # Architecture
 
 ![Mind map (2)](https://github.com/user-attachments/assets/085aae2c-4ad0-4adb-8f20-ffdbfdcc13ad)
@@ -26,14 +36,6 @@ This API from the Government of Canada provides programmatic access to informati
 
 
 
-# Video
-
-https://github.com/user-attachments/assets/d0328029-6af7-41e6-a51e-c0fa59e1c613
-
-
-# Observations-
-1. Climate change is a reality, as there has been an increase in maximum, minimum, and average temperatures after 2000 at majority of stations.
-2. There is a decrease in snowfall, rainfall after year 2000 at the majority of stations
 
 
 
