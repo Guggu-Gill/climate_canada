@@ -1,0 +1,20 @@
+{
+    "fileLocations": [
+        {
+            "URIPrefixes": [
+                "s3://climate-canada/station_table/"
+            ]
+        },
+        {
+            "URIPrefixes": [
+                "s3://climate-canada/station_table/station_table.csv"
+            ]
+        }
+    ],
+    "globalUploadSettings": {
+        "format": "CSV",
+        "separator": ",",
+        "quoteChar": "\"",
+        "firstLineHeader": true
+    }
+}

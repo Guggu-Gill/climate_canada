@@ -45,6 +45,20 @@ def create_S3(bucket_name=bucket_name):
         print(f"Error creating bucket: {e}")
 
 
+import boto3
+bucket_name="chat-canada"
+region = 'us-east-1'
+s3_client = boto3.client('s3', region_name=region)
+res=s3_client.list_objects_v2(Bucket=bucket_name, Delimiter='/')
+length=len(res['Contents'])
+arr=[]
+for i in range(1,length):
+    arr.append(res['Contents'][i]['Key'])
+
+
+
+print(arr)
+
 def _upload_csv_to_s3(id, csv_buffer, file_name,bucket_name=bucket_name):
 
     """
@@ -139,6 +153,17 @@ def consistency_check(df):
         print(_count_objects_in_bucket(id=lox['STN_ID'], start_year=lox['FIRST_DATE'],end_year=lox['LAST_DATE']))
 
 
+def load_athena_table():
+    s3_client.download_file('bucket_name', 'selected_station', 'station_table.csv')
+    print(f"File downloaded successfully to {local_file_name}")
+
+
+
+def run_glue_job(job_name):
+    glue_client = boto3.client('glue', region_name='your-region')  
+    response = glue_client.start_job_run(JobName=job_name)
+    job_run_id = response['JobRunId']
+    print(f"Started Glue job '{job_name}' with JobRunId: {job_run_id}")
 
 
 if __name__ == "__main__":
@@ -147,6 +172,8 @@ if __name__ == "__main__":
 
     #reference dataframe
     #only nearabout 80/8090 station data is taken into account.
+
+    load_athena_table()
     df=pd.read_csv("data/station_table/station_table.csv")
 
     #columns to keep.
@@ -172,6 +199,25 @@ if __name__ == "__main__":
 
     #performing files consistency test.
     consistency_check(df)
+
+
+
+    #running GLUE jobs
+
+    #defined in AWS script editor
+
+    run_glue_job('glue_merge')
+
+
+
+    run_glue_job('glue_transform')
+
+
+
+
+
+
+
 
 
 

@@ -1,0 +1,10 @@
+{
+  "fileLocations": [
+    {
+      "URIs": ["https://s3-us-east-1.amazonaws.com/bucket-bucket/station_table/station_table.csv"]
+    }
+  ],
+  "globalUploadSettings": {
+    "format": "CSV"
+  }
+}
