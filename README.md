@@ -9,7 +9,7 @@ This portal provides comprehensive climate data for Canada. It allows users to d
 source- [url](http://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=155&Year=2024&timeframe=2)  
 This API from the Government of Canada provides programmatic access to information about Canadian climate stations. Users can fetch metadata about different weather stations, including location, station ID, operational dates, and more, making it a valuable resource for integrating real-time or historical climate data in analysis.
 
-- A total ETL job with 8,000 readings from the weather station was set up, and a QuickSight dashboard was used. Data filtering was performed using Spark Glue.
+- A total ETL job with 8,000 readings from the 70 odd weather station was set up, and a QuickSight dashboard was used. Data filtering was performed using Spark Glue.
 
 
 # Architecture
