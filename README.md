@@ -9,8 +9,15 @@ This portal provides comprehensive climate data for Canada. It allows users to d
 source- [url](http://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=155&Year=2024&timeframe=2)  
 This API from the Government of Canada provides programmatic access to information about Canadian climate stations. Users can fetch metadata about different weather stations, including location, station ID, operational dates, and more, making it a valuable resource for integrating real-time or historical climate data in analysis.
 
-   
+
+Architecture
 
 ![Mind map (2)](https://github.com/user-attachments/assets/085aae2c-4ad0-4adb-8f20-ffdbfdcc13ad)
+
+
+
+Video
+
+https://github.com/user-attachments/assets/d0328029-6af7-41e6-a51e-c0fa59e1c613
 
 
