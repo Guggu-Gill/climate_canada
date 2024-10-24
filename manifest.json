@@ -2,12 +2,12 @@
     "fileLocations": [
         {
             "URIPrefixes": [
-                "s3://climate-canada/station_table/"
+                "s3://bucket-bucket/station_table/"
             ]
         },
         {
             "URIPrefixes": [
-                "s3://climate-canada/station_table/station_table.csv"
+                "s3://bucket-bucket/station_table/station_table.csv"
             ]
         }
     ],
