@@ -16,6 +16,14 @@ This API from the Government of Canada provides programmatic access to informati
 
 ![Mind map (2)](https://github.com/user-attachments/assets/085aae2c-4ad0-4adb-8f20-ffdbfdcc13ad)
 
+1. Create an EventBridge rule to trigger an EC2 instance.
+2. Store 8,000 CSV files in an S3 bucket.
+3. Trigger an AWS Glue job after storing the files.
+4. Aggregate the 8,000 CSV files into a single CSV file.
+5. Filter the aggregated CSV file.
+6. Use Amazon QuickSight to create a dashboard.
+
+
 
 
 # Video
