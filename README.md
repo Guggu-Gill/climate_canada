@@ -11,6 +11,6 @@ This API from the Government of Canada provides programmatic access to informati
 
    
 
+![Mind map (2)](https://github.com/user-attachments/assets/085aae2c-4ad0-4adb-8f20-ffdbfdcc13ad)
 
-![Mind map (1)](https://github.com/user-attachments/assets/de8a8794-6ec8-46c4-bc84-eae00139599a)
 
