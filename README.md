@@ -37,6 +37,10 @@ https://github.com/user-attachments/assets/d0328029-6af7-41e6-a51e-c0fa59e1c613
 
 
 
+![Blank diagram](https://github.com/user-attachments/assets/1028e992-bfe0-4958-85b8-e3812307585e)
+
+
+
 Kaggle- [output dataset link](https://www.kaggle.com/datasets/basantsingh1000/canada-climate-data-set/data)
 
 
