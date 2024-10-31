@@ -37,7 +37,7 @@ https://github.com/user-attachments/assets/d0328029-6af7-41e6-a51e-c0fa59e1c613
 
 
 
-# multiple folders in s3 contains multiple csv files which can be aggegerated using GLUE
+## multiple folders in s3 contains multiple csv files which can be aggegerated using GLUE
 ![Blank diagram](https://github.com/user-attachments/assets/1028e992-bfe0-4958-85b8-e3812307585e)
 
 
