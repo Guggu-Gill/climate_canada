@@ -1,5 +1,5 @@
-# Analyzing Climate Change in Canada Over 6 Decades
-[Basant Singh](https://www.linkedin.com/in/basantsingh1000/)
+# Analyzing Climate Change in Canada🍁 Over 6 Decades
+[Basant Singh🦁](https://www.linkedin.com/in/basantsingh1000/) & [Anmol Chabbra🇨🇦](https://www.linkedin.com/in/anmolchabbra)
   
 This project involves analyzing Canadian climate data over six decades, leveraging weather station information from various sources. Below is a summary of the data sources, APIs, and website descriptions for the relevant datasets.
 
